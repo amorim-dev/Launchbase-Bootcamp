@@ -1,4 +1,4 @@
-// Challenge 1-1: First steps with JS - to strengthen some concepts, among them:
+// Challenge 1-2: First steps with JS - to strengthen some concepts, among them:
 // Variables, Conditionals, Operators
 
 // Retirement calculation
