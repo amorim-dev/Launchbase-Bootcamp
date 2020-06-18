@@ -9,9 +9,13 @@ const height = 1.55;
 
 const IMC = weigth / (height * height)
 
+let message = ""
+
 
 if (IMC >= 30) {
-    console.log('Bianca, you are overweight')
+    message = ('Bianca, you are overweight')
 } else {
-    console.log('Bianca, you are not overweight')
+    message = ('Bianca, you are not overweight')
 }
+
+console.log(message)
