@@ -5,23 +5,17 @@
 
 const name = "Luciana";
 const sex = "F";
-const age = 61;
+const age = 51;
 const contribution = 33;
 
-if (sex == "F") {
-    if (contribution >= 30) {
-        console.log(`${name} you can retire`) 
-    } else {
-        console.log(`${name} you can't retire yet`)
-    }
-} 
+const contributioncalculation = age + contribution
 
-if (sex == "M") {
-    if (contribution >= 35) {
-        console.log(`${name} you can retire`) 
-    } else {
-        console.log(`${name} you can't retire yet`)
-    }
-} 
+const mancanretire = sex == 'M' && contribution >= 35 && contributioncalculation >= 95
+const womancanretire = sex == 'F' && contribution >= 30 && contributioncalculation >= 85
 
 
+if ( mancanretire || womancanretire) {
+    console.log(`${name}, you can retire!`)
+} else {
+    console.log(`${name}, you can't retire!`)
+}
