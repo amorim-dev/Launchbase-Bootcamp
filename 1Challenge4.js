@@ -14,6 +14,6 @@ const programmer = {
     ]
 }
 
-console.log(` Programmer ${programmer.name} are ${programmer.age} and use ${programmer.technologies[0].name} tecnology with a specialty in ${programmer.technologies[0].specialist} `)
+console.log(` Programmer ${programmer.name} are ${programmer.age} and use ${programmer.technologies[0].name} technology with a specialty in ${programmer.technologies[0].specialist} `)
 
 
