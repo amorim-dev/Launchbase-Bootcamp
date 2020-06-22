@@ -59,3 +59,5 @@ function enviaMensagem(media, turma) {
 enviaMensagem(media1, 'A')
 enviaMensagem(media2, 'B')
 
+
+
