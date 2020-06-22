@@ -19,4 +19,3 @@ if ( mancanretire || womancanretire) {
 } else {
     console.log(`${name}, you can't retire!`)
 }
-
