@@ -1,7 +1,7 @@
 // Challenge 1-2: First steps with JS - to strengthen some concepts, among them:
 // Variables, Conditionals, Operators
 
-// Retirement calculation
+// Retirement calculation 
 
 const name = "Luciana";
 const sex = "F";

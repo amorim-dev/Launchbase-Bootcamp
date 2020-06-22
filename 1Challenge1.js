@@ -4,10 +4,10 @@
 // BMI calculation
 
 const name = 'Bianca Amorim';
-const weigth = 62;
+const weight = 62;
 const height = 1.55;
 
-const IMC = weigth / (height * height)
+const IMC = weight / (height * height)
 
 let message = ""
 
