@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<!-- Challenge 2-1: Create an html file that contains an icon and a header with 3 links: Community, Email and Phone-->
+<!--https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-1-primeiro-html.md-->
+
+<html>
+
+    <head>
+        <title>First HTML Challenge</title>
+       
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="icon" href="https://raw.githubusercontent.com/Rocketseat/bootcamp-launchbase-desafios-02/master/desafios/favicon.ico" type="image/x-icon" />
+
+        <style>
+            * {
+               margin: 0;        
+               padding: 0;
+               border: 0; 
+            }
+            body {
+                background-color: #282a36;
+                font-family: 'Roboto', sans-serif;
+            }
+            header {
+                border-bottom: #333;
+                background: rgba(0,0,0,0,2);
+            }
+            header div {
+                text-align: center;
+            }
+            header div a {
+                color: white;
+                font-size: 18px;
+                line-height: 28px;
+                margin: 0 15px;
+                text-decoration: none;
+            }
+            header div a:hover {
+                color: #c0144d;
+                transition: color 200ms;
+            }
+
+        </style>
+    </head>
+
+
+
+    <body>
+        <header>
+            <div class="links">
+                <a href="https://discord.com/invite/gCRAFhc">Community</a>  
+                <a href="mailto:oi@rocketseat.com.br">Email</a>
+                <a href="tel:+5547992078767">Phone</a>
+            </div>
+        </header>
+    </body>
+
+</html>
