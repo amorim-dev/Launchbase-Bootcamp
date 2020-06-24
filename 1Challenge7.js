@@ -1,12 +1,10 @@
 // Challenge 1-7: First steps with JS - to strengthen some concepts, among them:
 // Booleans, Organization, Standardization, Writing.
 
-// Create a programS like exemṕles in:
 //https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-4-aplicacao-operacoes-bancarias.md
 
 
 // Create a program to perform banking transactions on a user's account.
-
 // Banking operations
 
 const user = {
@@ -66,7 +64,6 @@ function getTransactionsCount() {
     return count
 }
 
-
 createTransaction({ type: 'credit', value: 50 })
 createTransaction({ type: 'credit', value: 120 })
 createTransaction({ type: 'debit', value: 80 })
@@ -74,9 +71,10 @@ createTransaction({ type: 'debit', value: 30 })
 
 console.log(user.balance) // 60
 
-console.log(getHigherTransactionByType('credit')) // { type: 'credit', value: 120 }
-console.log(getHigherTransactionByType('debit')) // { type: 'debit', value: 80 }
+console.log(getHigherTransactionByType('credit')) 
 
-console.log(getAverageTransactionValue()) // 70
+console.log(getHigherTransactionByType('debit')) 
 
-console.log(getTransactionsCount()) // { credit: 2, debit: 2 }
+console.log(getAverageTransactionValue())
+
+console.log(getTransactionsCount()) 
