@@ -1,7 +1,7 @@
 // Challenge 1-5: First steps with JS - to strengthen some concepts, among them:
 // function and repetition structures
 
-// Create a programS like exemṕles in:
+// Create a programS like examples in:
 //https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-3-funcoes-e-estruturas-de-repeticao.md
 
 
@@ -21,8 +21,6 @@ const users = [
 for (let user of users) {
   console.log(`${user.name}, work with ${user.technologies.join(' and ')}`)
     } 
-
-
 
 
 
