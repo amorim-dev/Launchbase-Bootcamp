@@ -1,7 +1,18 @@
 <h1 align="center">
-    <img src="https://ik.imagekit.io/ucewcdsnwy/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f676f6c64656e2d77696e642f626f6f7463616d702d6c61756e6368626173652f6c6f676f2e706e67_xv256wpni.png" width="400px>
+    <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="400px" />
 </h1>
 
+
+<h3 align="center">
+    Challenges Module 1 - Introduction to WEB Programming
+</h3>
+
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT" >
+    <img src="https://img.shields.io/badge/license-MIT-brightgreen" alt="License MIT">
+  </a>
+</p>
 
 <p align="center">
   <a href="#pushpin-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -9,17 +20,6 @@
   <a href="#key-license">License</a>
 </p>
 
-<h3 align="center">
-    Challenges Module 1 - Introduction to WEB Programming
-</h3>
-
-<p align="center">
-
-  <a href="https://opensource.org/licenses/MIT" >
-    <img src="https://img.shields.io/badge/license-MIT-brightgreen" alt="License MIT">
-  </a>
-
-</p>
 
 ## :pushpin: **About:**
 
