@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+:root{
+    --color-purple: #673eb3;
+    --color-white: #ffffff;
+}
+
+* {
+   margin: 0;        
+   padding: 0;
+   border: 0;
+   box-sizing: 0;
+   list-style: none; 
+}
+
+body {
+    background: url('https://skylab.rocketseat.com.br/static/media/MountainsOpacity.a4edba24.png') 0% 0% / cover fixed, rgb(11, 10, 13);
+    font-family: Roboto, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 29px;
+    border-bottom: 1px solid rgb(100, 97, 97);
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+header div {
+    text-align: center;
+}
+
+div a {
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0px 15px;
+    text-decoration: none;
+}
+
+div a:hover {
+    color: var(--color-purple);
+    transition: color 200ms;
+}
+
+#logo img {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 5px solid var(--color-white);
+    margin-top: 40px;
+    transition: 300ms;
+}
+
+#logo h1 {
+    margin: 10px 0px 20px 0px;
+    font-size: 35px;
+    line-height: 50px;
+    font-family: 'Satisfy', cursive;
+}
+
+#logo h1:hover {
+    font-size: 37px;
+    transition: 300ms;
+}
+
+#logo h3 {
+    font-size: 22px;
+}
+
+#logo h3 a {
+    color: var(--color-purple);
+    transition: 700ms;
+    font-size: 22px;
+}
+
+#logo h3 a:hover {
+    color: #3e2174;
+}
+
+#logo p {
+    margin: 0px auto;
+    max-width: 670px;
+}
+
+#logo ul {
+    margin: 30px 0px 50px 0px;
+    opacity: 0.8;
+}
+
+#links-footer a {
+    border-bottom: 1px solid var(--color-purple);
+}

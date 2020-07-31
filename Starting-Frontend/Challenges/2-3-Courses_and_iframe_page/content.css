@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+:root{
+    --color-purple: #673eb3;
+    --color-white: #ffffff;
+    --rocket-color: #7159c1;
+    --launch-color: #fd951f;
+    --gostack-color:#04d361;
+}
+
+* {
+   margin: 0;        
+   padding: 0;
+   border: 0;
+   box-sizing: 0;
+   list-style: none; 
+}
+
+body {
+    background: url('https://skylab.rocketseat.com.br/static/media/MountainsOpacity.a4edba24.png') 0% 0% / cover fixed, rgb(11, 10, 13);
+    font-family: Roboto, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 29px;
+    border-bottom: 1px solid rgb(100, 97, 97);
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+header div {
+    text-align: center;
+}
+
+div a {
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0px 15px;
+    text-decoration: none;
+}
+
+div a:hover {
+    color: var(--color-purple);
+    transition: color 200ms;
+}
+
+#links-footer a {
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--color-purple);
+}
+
+
+/* ===== Cards ===== */
+
+.content {
+    display: flex;
+    justify-content: center;
+
+    width: 84%;
+    padding: 30px;
+    margin: 50px 50px 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 70px;
+}
+
+.card {
+    width: 100%;
+    border-radius: 30px;
+    padding: 20px;
+
+    position: relative;
+    background: #2e2f357c;
+}
+
+.card_image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0%;
+}
+
+.card_image-container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.card_image-container span {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.starter-span, #starter {
+    border: 3px solid var(--rocket-color);
+}
+.launch-span, #launchbase {
+    border: 3px solid var(--launch-color);
+}
+.gostack-span, #gostack{
+    border: 3px solid var(--gostack-color);
+}
+
+.card .starter-span,
+.card strong.starter {
+    color: var(--rocket-color);
+}
+.card .launch-span,
+.card strong.launch {
+    color: var(--launch-color);
+}
+.card .gostack-span,
+.card strong.gostack {
+    color: var(--gostack-color);
+}
+
+.card_image-container img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 148px;
+    margin: 105px 0 55px;
+
+    cursor: pointer;
+}
+
+.card_image-container img:hover {
+    height: 149px;
+}
+
+.card_content {
+    max-width: 270px;
+    text-align: center;
+}
+.card_content p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 40px;
+}
+
+.card_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    margin-top: 50px;
+}
+
+.card_price {
+    cursor: pointer;
+}
+
+.card_info .card_price {
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#starter_price {
+    background: var(--rocket-color);
+}
+#launchbase_price {
+    background: var(--launch-color);
+}
+#gostack_price {
+    background: var(--gostack-color);
+}
+
+
+/* ===== MODAL ===== */
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    transition: step-start 200ms;
+  
+    position: fixed;
+    top: 0;
+  
+    opacity: 0;
+    visibility: hidden;
+}
+  
+.modal {
+    background: white;
+    border-radius: 10px;
+    width: 80%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative;
+}
+
+  .modal .launch-modal,
+  .modal .close-modal {
+    color: black;
+    position: absolute;
+    top: 4px;
+    right: 20px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .modal .launch-modal {
+    right: 50px;
+  }
+  
+  iframe {
+    width: 99.4%;
+    height: 94%;
+    position: absolute;
+    left: 0.2%;
+    right: 0.2%;
+    top: 5%;
+    bottom: 0.8%;
+    background-color: #fff;
+    border: 1px solid #282a36;
+    border-radius: 10px;
+  }
+  
+  .modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  
