@@ -19,7 +19,7 @@
 ## Módulo 2 - [Introduction to Front-End:](https://github.com/amorim-dev/Launchbase-Bootcamp/tree/master/Starting-Frontend) :heavy_check_mark:
 - [x] 1. Challenge 2.1 - First HTML
 - [x] 2. Challenge 2.1 - Description page
-- [ ] 3. Challenge 2.3 - Courses and iframe page
+- [x] 3. Challenge 2.3 - Courses and iframe page
 - [ ] 4. Challenge 2.4 - Building Foodfy :fork_and_knife:
 
 ## Módulo 3 - Introduction to Back-End: :construction_worker: :construction:
