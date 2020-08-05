@@ -77,7 +77,7 @@ From challenge 2-1, add a new link in the header called *About*. This page shoul
 - The name of the company
 - A brief description of the company
 - A list of the main technologies used. Tip: use the `ul` tag for the list and `li` for the list item.
-- We have to add social networks (Github, Instagram and Facebook). 
+- You have to add social networks (Github, Instagram and Facebook). 
 
 ### Stylization
 
