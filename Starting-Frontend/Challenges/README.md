@@ -23,7 +23,7 @@
 
 
 <div align="center">
-  ![Peek_chall2 3_Launchbase](https://user-images.githubusercontent.com/59603723/89228388-e79f6000-d5b5-11ea-8fa4-7cd9c3d0cb32.gif)
+  <img src="https://user-images.githubusercontent.com/5960372389228388-e79f6000-d5b5-11ea-8fa4-7cd9c3d0cb32.gif" alt="desafio-front" height="450px">
 </div>
 
 ## :pushpin: About:
@@ -117,7 +117,7 @@ You are free to choose the style you prefer for this challenge, but some points 
 - The grid should be used to organize the courses
 - The modal should never open maximized
 
-<h2 align="center">Challenge: Building Foodfy</h2> :construction_worker: :construction:
+<h2 align="center">Challenge: Building Foodfy :construction_worker: :construction:</h2> 
 
 
 ## :key: License:
