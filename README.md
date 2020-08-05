@@ -53,4 +53,4 @@ This project is under MIT license, for more details check [LICENSE](https://gith
 
 ---
 
-Made with :purple_heart: by **Bianca Amorim**. :point_right: [Contact me here!](https://www.linkedin.com/in/amorimbiadev/)
+Made with :purple_heart: by **Bianca Amorim**. :point_right: [My social networks](https://www.linkedin.com/in/amorimbiadev/)
