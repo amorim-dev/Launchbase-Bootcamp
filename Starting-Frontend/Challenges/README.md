@@ -23,7 +23,7 @@
 
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/5960372389228388-e79f6000-d5b5-11ea-8fa4-7cd9c3d0cb32.gif" alt="desafio-front" height="450px">
+  <img src="https://github.com/amorim-dev/Launchbase-Bootcamp/tree/master/Starting-Frontend/Challenges/assets" alt="desafio-front" height="450px">
 </div>
 
 ## :pushpin: About:
