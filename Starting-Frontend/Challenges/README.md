@@ -21,10 +21,7 @@
   <a href="#key-License">License</a>
 </p>
 
-
-<div align="center">
-  <img src="https://github.com/amorim-dev/Launchbase-Bootcamp/tree/master/Starting-Frontend/Challenges/assets" alt="desafio-front" height="450px">
-</div>
+![Peek_chall2 3_Launchbase](https://user-images.githubusercontent.com/59603723/94573880-e5b9ec00-0248-11eb-9154-50aea997ecdc.gif)
 
 ## :pushpin: About:
 
