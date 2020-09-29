@@ -14,10 +14,10 @@
 
 <p align="center"> 
   <a href="#pushpin-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Challenge-2-1:-First-HTML">2-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Challenge-2-2:-Description-page">2-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Challenge 2-3: Courses and iframe page">2-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Challenge: Building Foodfy">2-4</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#2-1">2-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#2-2">2-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#2-3">2-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Foodfy">2-4</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#key-License">License</a>
 </p>
 
@@ -29,7 +29,7 @@ In the challenges of this module I needed to build a website about Rocketseat wh
 And a modal pop-up was used that redirects to the official bootcamp page.
 
 
-<h2 align="center">Challenge 2-1: First HTML</h2>
+<h2 id="2-1" align="center">Challenge 2-1: First HTML</h2>
 
 ## :rocket: About of challenge
  
@@ -62,7 +62,7 @@ You are free to choose the style you prefer for this challenge, but some points 
 - Links must be 30px of spacing
 
 
-<h2 align="center">Challenge 2-2: Description page</h2>
+<h2 id="2-2" align="center">Challenge 2-2: Description page</h2>
 
 ## :rocket: About of challenge
 
@@ -85,9 +85,9 @@ You are free to choose the style you prefer for this challenge, but some points 
 - The company name and image must be highlighted from the rest
 - Social network links must have some visual change when the mouse cursor passes over them.
 
-<h2 align="center">Challenge 2-3: Courses and iframe page</h2>
+<h2 id="2-3" align="center">Challenge 2-3: Courses and iframe page</h2>
 
-## :rocket: About the challenge
+## :rocket: About the challenge 
 
 From the challenge 2.2 file, add a link called Contents in the header. This page should contain a grid where the 3 main courses of Rocketseat should be shown: Starter, Launchbase and GoStack. When clicking on one of the courses, a modal must be opened where an iframe will load the information of the selected course.
 
@@ -114,7 +114,7 @@ You are free to choose the style you prefer for this challenge, but some points 
 - The grid should be used to organize the courses
 - The modal should never open maximized
 
-<h2 align="center">Challenge: Building Foodfy :construction_worker: :construction:</h2> 
+<h2 id="Foodfy" align="center">Challenge: Building Foodfy :construction_worker: :construction:</h2> 
 
 
 ## :key: License:
